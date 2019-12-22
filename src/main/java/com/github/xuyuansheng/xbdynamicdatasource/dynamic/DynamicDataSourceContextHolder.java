@@ -9,7 +9,7 @@ public class DynamicDataSourceContextHolder {
     private static final ThreadLocal<String> CONTEXT_HOLDER = new ThreadLocal<>();
 
     public static synchronized void setDataSourceKey(String key) {
-        checkState(null == CONTEXT_HOLDER.get(), "ContextHolder 已经设置过值了,请先清除!.");
+//        checkState(null == CONTEXT_HOLDER.get(), "ContextHolder 已经设置过值了,请先清除!.");
         CONTEXT_HOLDER.set(key);
     }
 

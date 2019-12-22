@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.github.xuyuansheng</groupId>
     <artifactId>xb-dynamic-datasource-boot-starter</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <name>xb-dynamic-datasource-boot-starter</name>
     <description>动态数据源</description>
     <url>https://github.com/xuyuansheng/xb-dynamic-datasource-boot-starter.git</url>
@@ -79,7 +79,7 @@
                 <version>1.6</version>
                 <executions>
                     <execution>
-                        <phase>verify</phase>
+                        <phase>deploy</phase>
                         <goals>
                             <goal>sign</goal>
                         </goals>
